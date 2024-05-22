@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+.result-box {
+    margin-top: 10px;
+}
+
+#result {
+    background-color: white;
+}
