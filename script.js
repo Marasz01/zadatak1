@@ -4,11 +4,12 @@ function calculate() {
   const resultBox = document.getElementById("result");
 
   if (num1 === "" || num2 === "") {
-    resultBox.value = "Molimo unesite oba broja!";
+    resultBox.value = "Molim unesite oba broja!";
     resultBox.style.backgroundColor = "red";
   } else {
     const number1 = parseFloat(num1);
     const number2 = parseFloat(num2);
+
     const result = number1 >= number2 ? number1 : number2;
     resultBox.value = result;
     resultBox.style.backgroundColor = "green";
